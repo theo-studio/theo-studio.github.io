@@ -3,39 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#0b0f22">
 <title>theo studio games</title>
-<style>
-  :root { --bg: #0b0f22; --fg: #e8eeff; --muted: #a3acc9; --line: #232a4a; --accent: #a8d4ff; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
-  main { max-width: 640px; margin: 0 auto; padding: 56px 20px 64px; }
-  h1 { font-size: 28px; margin: 0 0 6px; }
-  .lead { color: var(--muted); margin: 0 0 40px; }
-  h2 { font-size: 15px; color: var(--muted); font-weight: 600; letter-spacing: .04em; margin: 0 0 12px; }
-  .app { border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
-  .app h3 { margin: 0 0 4px; font-size: 19px; }
-  .app p { margin: 0 0 10px; color: var(--muted); }
-  a { color: var(--accent); }
-  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
-</style>
+<meta name="description" content="작고 차분한 퍼즐 게임을 만듭니다.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbf8ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#13161f" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="style.css">
+<meta property="og:title" content="theo studio games">
+<meta property="og:description" content="작고 차분한 퍼즐 게임을 만듭니다.">
+<meta property="og:image" content="https://theostudio.games/icon-512.png">
 </head>
-<body>
-<main>
-  <h1><img src="/logo-header.svg" alt="theo studio games" width="168" height="56" style="display:block;margin-left:-11px"></h1>
-  <p class="lead">작고 차분한 퍼즐 게임을 만듭니다.</p>
+<body><div class="wrap"><header class="top">
+  <a class="logo" href="./" aria-label="theo studio games"><img class="on-light" src="img/theo-navy.svg" alt="theo" width="120" height="40"><img class="on-dark" src="img/theo-yellow.svg" alt="theo" width="120" height="40"></a>
+  <a class="lang" href="en/" hreflang="en" lang="en">English</a>
+</header></div>
+<main class="wrap">
+  <section class="hero"><h1>작고 차분한<br>퍼즐 게임을 만듭니다.</h1><p lang="en">Calm, thoughtful puzzle games for quiet nights.</p><svg class="dots" viewBox="0 0 100 100" aria-hidden="true"><g fill="#1b1f2a"><circle cx="10" cy="10" r="6"/><circle cx="10" cy="30" r="3.2"/><circle cx="10" cy="50" r="3.2"/><circle cx="10" cy="70" r="6"/><circle cx="10" cy="90" r="3.2"/><circle cx="30" cy="10" r="3.2"/><circle cx="30" cy="30" r="3.2"/><circle cx="30" cy="50" r="6"/><circle cx="30" cy="70" r="3.2"/><circle cx="30" cy="90" r="3.2"/><circle cx="50" cy="10" r="3.2"/><circle cx="50" cy="30" r="6"/><circle cx="50" cy="50" r="3.2"/><circle cx="50" cy="70" r="3.2"/><circle cx="50" cy="90" r="6"/><circle cx="70" cy="10" r="6"/><circle cx="70" cy="30" r="3.2"/><circle cx="70" cy="50" r="3.2"/><circle cx="70" cy="70" r="6"/><circle cx="70" cy="90" r="3.2"/><circle cx="90" cy="10" r="3.2"/><circle cx="90" cy="30" r="3.2"/><circle cx="90" cy="50" r="6"/><circle cx="90" cy="70" r="3.2"/><circle cx="90" cy="90" r="3.2"/></g></svg></section>
 
-  <h2>게임</h2>
-  <div class="app">
-    <h3>별 잇는 밤</h3>
-    <p>줄마다, 색마다 별 하나. 찾은 별로 나만의 별자리를 잇는 퀸즈 퍼즐입니다.</p>
-    <a href="starnight/privacy/">개인정보처리방침</a> · <a href="starnight/terms/">이용약관</a>
-  </div>
+  <section class="sec" aria-labelledby="games"><h2 id="games">게임</h2>
+    <article class="game">
+      <div class="game-head"><img src="img/starnight-icon.webp" alt="" width="72" height="72"><div><h3>별 잇는 밤</h3><span class="badge">곧 출시</span></div></div>
+      <p class="game-desc">줄마다, 색마다 별 하나. 찾은 별로 나만의 별자리를 잇는 퀸즈 퍼즐이에요. 매일 낮 12시에는 모두에게 같은 하늘이 열려요.</p>
+      <div class="shots"><figure><img src="img/starnight-sky-ko.webp" alt="지평선 위로 이어지는 300개의 별자리" width="390" height="847" loading="lazy"><figcaption>지평선 위로 이어지는 300개의 별자리</figcaption></figure><figure><img src="img/starnight-board-ko.webp" alt="가로·세로·색마다 별은 딱 하나" width="390" height="847" loading="lazy"><figcaption>가로·세로·색마다 별은 딱 하나</figcaption></figure><figure><img src="img/starnight-constellation-ko.webp" alt="찾은 별 10개로 나만의 별자리" width="390" height="847" loading="lazy"><figcaption>찾은 별 10개로 나만의 별자리</figcaption></figure><figure><img src="img/starnight-daily-ko.webp" alt="매일 낮 12시, 오늘의 샛별" width="390" height="847" loading="lazy"><figcaption>매일 낮 12시, 오늘의 샛별</figcaption></figure></div>
+      <div class="stores"><span class="store">App Store <small>곧 출시</small></span><span class="store">Google Play <small>곧 출시</small></span></div>
+      <p class="game-links"><a href="starnight/privacy/">개인정보처리방침</a> · <a href="starnight/terms/">이용약관</a></p>
+    </article>
+    <div class="next"><span class="ph" aria-hidden="true">?</span><div><b>다음 퍼즐을 만들고 있어요</b>새 게임이 나오면 여기에 더해져요.</div></div>
+  </section>
 
-  <footer>테오스튜디오 · 사업자등록번호 112-21-23164<br>문의: <a href="mailto:hello@theostudio.games">hello@theostudio.games</a></footer>
+  <section class="sec" aria-labelledby="contact"><h2 id="contact">문의</h2>
+    <div class="contact"><p><a href="mailto:hello@theostudio.games">hello@theostudio.games</a></p><p style="margin-top:6px;color:var(--muted)">게임 이야기, 제안, 오류 제보 모두 반가워요.</p></div>
+  </section>
 </main>
+<footer class="wrap foot"><div class="row"><span>테오스튜디오 · 사업자등록번호 112-21-23164</span></div><div class="row"><a href="starnight/privacy/">개인정보처리방침</a><a href="starnight/terms/">이용약관</a><span>© 2026 theo studio games</span></div></footer>
 </body>
 </html>
