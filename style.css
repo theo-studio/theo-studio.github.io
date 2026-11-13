@@ -90,3 +90,13 @@ img{max-width:100%;display:block}
 .doc .wrap{overflow-x:auto;padding:0}
 .crumb{font-size:14px;color:var(--muted)}
 .crumb a{color:var(--muted)}
+
+/* 게임 소개 페이지 */
+.game.solo{margin:8px 0 56px}
+.game.solo .game-head img{width:96px;height:96px;border-radius:24px}
+.game.solo h1{margin:0;font-size:clamp(28px,6vw,40px);line-height:1.2;font-weight:800}
+.game-desc.lead{font-size:clamp(17px,2.6vw,20px);color:#dfe6ff}
+.feats{list-style:none;margin:22px 0 0;padding:0 28px;display:grid;gap:14px}
+.feats li{background:rgba(200,220,255,.06);border:1px solid rgba(190,210,255,.15);border-radius:18px;padding:16px 18px;color:#c4d0f0;font-size:15px;line-height:1.6}
+.feats b{display:block;color:#fff;font-size:17px;margin-bottom:2px}
+@media (min-width:720px){.feats{grid-template-columns:1fr 1fr;padding:0 44px}}
