@@ -175,3 +175,12 @@ a.store[aria-disabled]{cursor:default}
   .qr b{font-size:16px;color:#fff}
   .qr span{font-size:13.5px;color:#9aa8cc;text-align:center;line-height:1.55}
 }
+/* 공식 배지의 「보이는 높이」를 --bh 하나로 맞춤 (휴대폰 2칸 42 · 받기·PC 52)
+   App Store SVG 는 여백 없음 → 높이 그대로. Google Play PNG(646×250)는 투명 여백만큼 키우고 음수 여백으로 상쇄
+   ko 보이는 영역 646×192 (위아래 29) · en 564×168 (사방 41) */
+.stores.big{--bh:42px}
+.land .stores.big{--bh:52px}
+@media (min-width:720px){.stores.big{--bh:52px}}
+.store.has-badge:not([aria-disabled]) .badge-img{width:auto;max-width:none;height:var(--bh);margin:0}
+.store.has-badge:not([aria-disabled]) .badge-img[src*="googleplay-ko"]{height:calc(var(--bh) * 250 / 192);margin:calc(var(--bh) * -29 / 192) 0}
+.store.has-badge:not([aria-disabled]) .badge-img[src*="googleplay-en"]{height:calc(var(--bh) * 250 / 168);margin:calc(var(--bh) * -41 / 168)}
