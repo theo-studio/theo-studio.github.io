@@ -100,3 +100,7 @@ img{max-width:100%;display:block}
 .feats li{background:rgba(200,220,255,.06);border:1px solid rgba(190,210,255,.15);border-radius:18px;padding:16px 18px;color:#c4d0f0;font-size:15px;line-height:1.6}
 .feats b{display:block;color:#fff;font-size:17px;margin-bottom:2px}
 @media (min-width:720px){.feats{grid-template-columns:1fr 1fr;padding:0 44px}}
+a.store{text-decoration:none}
+a.store[href]{cursor:pointer}
+a.store[href]:hover{border-color:var(--yellow)}
+a.store[aria-disabled]{cursor:default}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>별 잇는 밤 받기 · theo studio games</title>
+<meta name="description" content="별 잇는 밤을 App Store 또는 Google Play에서 받으세요. 휴대폰으로 열면 맞는 스토어로 바로 이동해요.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbf8ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#13161f" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
+<link rel="canonical" href="https://theostudio.games/get/">
+<meta property="og:title" content="별 잇는 밤 · Starnight">
+<meta property="og:description" content="줄마다, 열마다, 색마다 별은 딱 하나. 별을 찾아 나만의 별자리를 잇는 퍼즐 게임.">
+<meta property="og:image" content="https://theostudio.games/icon-512.png">
+<meta property="og:url" content="https://theostudio.games/get/">
+<meta name="twitter:card" content="summary">
+<script src="/stores.js"></script>
+<script>
+(function () {
+  var s = window.STARNIGHT_STORES, ua = navigator.userAgent || "";
+  var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  var android = /Android/.test(ua);
+  var c = ios ? s.ios : android ? s.android : null;
+  if (c && c.live) location.replace(c.url);
+})();
+</script>
+</head>
+<body><div class="wrap"><header class="top">
+  <a class="logo" href="/" aria-label="theo studio games"><img class="on-light" src="/img/theo-navy.svg" alt="theo" width="120" height="40"><img class="on-dark" src="/img/theo-yellow.svg" alt="theo" width="120" height="40"></a>
+  <a class="lang" href="/en/starnight/" hreflang="en" lang="en">English</a>
+</header></div>
+<main class="wrap">
+  <article class="game solo">
+    <div class="game-head"><img src="/img/starnight-icon.webp" alt="" width="96" height="96"><div><h1>별 잇는 밤</h1><span class="badge" data-launch-badge>곧 출시</span></div></div>
+    <p class="game-desc lead">줄마다, 색마다 별 하나.<br>찾은 별로 나만의 별자리를 잇는 퀸즈 퍼즐</p>
+    <div class="stores"><a class="store" data-store="ios" aria-disabled="true">App Store <small data-soon>곧 출시</small></a><a class="store" data-store="android" aria-disabled="true">Google Play <small data-soon>곧 출시</small></a></div>
+    <p class="game-links" lang="en">Starnight · Get it on the App Store or Google Play.</p>
+    <p class="game-links"><a href="/starnight/">게임 소개 보기</a> · <a href="/">theo studio games 홈</a></p>
+  </article>
+</main>
+<footer class="wrap foot"><div class="row"><span>테오스튜디오 · 사업자등록번호 112-21-23164</span><a href="mailto:hello@theostudio.games">hello@theostudio.games</a></div><div class="row"><a href="/starnight/privacy/">개인정보처리방침</a><a href="/starnight/terms/">이용약관</a><span>© 2026 theo studio games</span></div></footer>
+<script>
+document.querySelectorAll("[data-store]").forEach(function (a) {
+  var c = window.STARNIGHT_STORES[a.getAttribute("data-store")];
+  if (c && c.live) { a.href = c.url; a.removeAttribute("aria-disabled"); var s = a.querySelector("[data-soon]"); if (s) s.remove(); document.querySelectorAll("[data-launch-badge]").forEach(function (b) { b.remove(); }); }
+});
+</script>
+</body>
+</html>
