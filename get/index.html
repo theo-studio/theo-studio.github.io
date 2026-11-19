@@ -13,6 +13,9 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css">
 <link rel="canonical" href="https://theostudio.games/get/">
+<link rel="alternate" hreflang="ko" href="https://theostudio.games/get/">
+<link rel="alternate" hreflang="en" href="https://theostudio.games/en/get/">
+<link rel="alternate" hreflang="x-default" href="https://theostudio.games/get/">
 <meta property="og:title" content="별 잇는 밤 · Starnight">
 <meta property="og:description" content="줄마다, 열마다, 색마다 별은 딱 하나. 별을 찾아 나만의 별자리를 잇는 퍼즐 게임.">
 <meta property="og:image" content="https://theostudio.games/icon-512.png">
@@ -31,22 +34,24 @@
 </head>
 <body><div class="wrap"><header class="top">
   <a class="logo" href="/" aria-label="theo studio games"><img class="on-light" src="/img/theo-navy.svg" alt="theo" width="120" height="40"><img class="on-dark" src="/img/theo-yellow.svg" alt="theo" width="120" height="40"></a>
-  <a class="lang" href="/en/starnight/" hreflang="en" lang="en">English</a>
+  <a class="lang" href="/en/get/" hreflang="en" lang="en">English</a>
 </header></div>
 <main class="wrap">
-  <article class="game solo">
-    <div class="game-head"><img src="/img/starnight-icon.webp" alt="" width="96" height="96"><div><h1>별 잇는 밤</h1><span class="badge" data-launch-badge>곧 출시</span></div></div>
-    <p class="game-desc lead">줄마다, 색마다 별 하나.<br>찾은 별로 나만의 별자리를 잇는 퀸즈 퍼즐</p>
-    <div class="stores"><a class="store" data-store="ios" aria-disabled="true">App Store <small data-soon>곧 출시</small></a><a class="store" data-store="android" aria-disabled="true">Google Play <small data-soon>곧 출시</small></a></div>
-    <p class="game-links" lang="en">Starnight · Get it on the App Store or Google Play.</p>
-    <p class="game-links"><a href="/starnight/">게임 소개 보기</a> · <a href="/">theo studio games 홈</a></p>
-  </article>
+  <article class="game land"><div>
+    <img class="ic" src="/img/starnight-icon.webp" alt="" width="112" height="112">
+    <h1>별 잇는 밤</h1><span class="kw">무료 퀸즈 퍼즐(스타 배틀)</span><span class="badge" data-launch-badge>곧 출시</span>
+    <p class="one">줄마다, 열마다, 색마다 별은 딱 하나.<br>찾은 별로 나만의 별자리를 이어요.</p>
+    <div class="stores big"><a class="store" data-store="ios" aria-disabled="true"><span class="txt">App Store <small data-soon>곧 출시</small></span></a><a class="store has-badge" data-store="android" aria-disabled="true"><img class="badge-img" src="/img/badge-googleplay-ko.png" alt="Google Play에서 다운로드" width="646" height="250"><span class="txt">Google Play <small data-soon>곧 출시</small></span></a></div>
+    <p class="note"><span data-launch-badge>곧 출시돼요. 출시되면 휴대폰으로 이 주소를 열 때 바로 맞는 스토어로 이어져요.</span><span class="note-live">휴대폰으로 열면 맞는 스토어로 바로 이동해요.</span></p>
+    <p class="links"><a href="/starnight/">게임 소개</a> · <a href="/">theo studio games 홈</a></p>
+  </div>
+  <div class="qr"><div class="code"><img src="/img/get-qr.svg" alt="theostudio.games/get QR 코드" width="180" height="180"></div><b>휴대폰으로 받기</b><span>카메라로 찍으면<br>맞는 스토어가 열려요.</span></div></article>
 </main>
 <footer class="wrap foot"><div class="row"><span>테오스튜디오 · 사업자등록번호 112-21-23164</span><a href="mailto:hello@theostudio.games">hello@theostudio.games</a></div><div class="row"><a href="/starnight/privacy/">개인정보처리방침</a><a href="/starnight/terms/">이용약관</a><span>© 2026 theo studio games</span></div></footer>
 <script>
 document.querySelectorAll("[data-store]").forEach(function (a) {
   var c = window.STARNIGHT_STORES[a.getAttribute("data-store")];
-  if (c && c.live) { a.href = c.url; a.removeAttribute("aria-disabled"); var s = a.querySelector("[data-soon]"); if (s) s.remove(); document.querySelectorAll("[data-launch-badge]").forEach(function (b) { b.remove(); }); }
+  if (c && c.live) { a.href = c.url; a.removeAttribute("aria-disabled"); var s = a.querySelector("[data-soon]"); if (s) s.remove(); document.querySelectorAll("[data-launch-badge]").forEach(function (b) { b.remove(); }); document.documentElement.classList.add("is-live"); }
 });
 </script>
 </body>
