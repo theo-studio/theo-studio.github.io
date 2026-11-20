@@ -1,7 +1,7 @@
 /* 별 잇는 밤 스토어 링크 — 출시하면 해당 값만 true 로 바꾼다 (iOS·Android 따로 켤 수 있음) */
 window.STARNIGHT_STORES = {
-  ios: { live: false, url: "https://apps.apple.com/app/id6829614015" },
-  android: { live: false, url: "https://play.google.com/store/apps/details?id=com.theostudio.starnight" }
+  ios: { live: true, url: "https://apps.apple.com/app/id6829614015" },
+  android: { live: true, url: "https://play.google.com/store/apps/details?id=com.theostudio.starnight" }
 };
 
 (function () {
