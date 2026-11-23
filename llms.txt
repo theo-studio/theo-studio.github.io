@@ -14,25 +14,36 @@
 ## 별 잇는 밤 (Starnight)
 
 - 장르: 무료 퀸즈 퍼즐(스타 배틀), 논리 퍼즐
-- 규칙: 가로줄마다, 세로줄마다, 색 영역마다 별은 딱 하나
+- 규칙: 가로줄마다, 세로줄마다, 색 영역마다 별은 딱 하나. 별끼리는 대각선으로도 붙을 수 없습니다
 - 판 하나를 풀 때마다 별이 하나씩 모이고, 별 10개가 모이면 나만의 별자리를 잇습니다
 - 지평선 위로 이어지는 300개의 별자리, 3000개의 별
 - 판 크기는 5×5 에서 시작해 11×11 까지 넓어집니다
 - 매일 낮 12시 「오늘의 샛별」: 모두에게 같은 하늘이 열리고, 쉬움·보통·어려움 중 하루 한 번 순위에 도전합니다
 - 찍지 않아도 풀립니다: 모든 판은 논리만으로 끝까지 풀리며, 막히면 나침반이 다음 한 수와 이유를 알려 줍니다
-- 가격: 무료(광고 포함). 앱 안에서 「광고 평생 제거」를 한 번 구매할 수 있습니다(한국 ₩9,900)
+- 가격: 무료(광고 포함). 앱 안에서 「광고 평생 제거」를 한 번 구매할 수 있습니다(한국 ₩9,900, 다른 나라는 스토어 현지 가격)
 - 지원 기기: iOS, Android · 언어: 한국어, 영어
 
 ### English summary
 
 - Free Queens-style (Star Battle) logic puzzle
-- Rule: exactly one star in every row, every column and every color region
+- Rule: exactly one star in every row, every column and every color region; stars can't touch, not even diagonally
 - Each solved board gives you a star; connect 10 stars into a constellation of your own
 - 300 constellations and 3,000 stars; boards grow from 5×5 up to 11×11
 - Daily sky at noon: everyone gets the same puzzle; pick Easy, Normal or Hard for one ranked try a day
 - No guessing needed: every board is solvable by logic alone, and the compass hint shows the next move and why
-- Price: free with ads; an optional one-time "remove ads forever" purchase (₩9,900 in Korea, US$7.49 in the US)
+- Price: free with ads; an optional one-time "remove ads forever" purchase (₩9,900 in Korea, local store price elsewhere)
 - Platforms: iOS, Android · Languages: Korean, English
+
+## 이런 분께 추천 / Who it's for
+
+- LinkedIn Queens 같은 퀸즈 퍼즐이나 스타 배틀을 즐겨 푸는 분
+- 스도쿠·노노그램처럼 찍지 않고 논리로만 푸는 퍼즐을 찾는 분
+- 매일 짧게, 낮 12시에 열리는 「오늘의 샛별」 한 판을 풀고 싶은 분
+- 퍼즐이 처음이라, 막히면 다음 한 수와 그 이유까지 알려 주는 힌트(나침반)가 필요한 분
+- Fans of Queens puzzles (like LinkedIn Queens) and Star Battle
+- Anyone who likes logic puzzles you solve without guessing, like Sudoku or Nonograms
+- Players who want one short daily puzzle — a new sky opens every day at noon
+- Puzzle newcomers: when you're stuck, the compass shows the next move and explains why
 
 ## 받기 / Download
 
