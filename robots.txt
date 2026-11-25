@@ -1,27 +1,38 @@
 # theo studio games — 검색엔진·AI 검색 모두 환영합니다
 User-agent: *
 Allow: /
+Disallow: /press/
 
 # AI 검색·답변 엔진 (명시적 허용)
 User-agent: GPTBot
 Allow: /
+Disallow: /press/
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /press/
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /press/
 User-agent: ClaudeBot
 Allow: /
+Disallow: /press/
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /press/
 User-agent: Claude-User
 Allow: /
+Disallow: /press/
 User-agent: PerplexityBot
 Allow: /
+Disallow: /press/
 User-agent: Google-Extended
 Allow: /
+Disallow: /press/
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /press/
 User-agent: Yeti
 Allow: /
+Disallow: /press/
 
 Sitemap: https://theostudio.games/sitemap.xml
